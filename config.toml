@@ -1,0 +1,60 @@
+baseurl = "/"
+languageCode = "en-us"
+theme = "hello-friend"
+paginate = 5
+
+[params]
+  # dir name of your blog content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+
+  # "light" or "dark"
+  defaultTheme = "dark"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 5
+
+  # Show reading time in minutes for posts
+  showReadingTime = false
+
+  # Show table of contents at the top of your posts (defaults to false)
+  # Alternatively, add this param to post front matter for specific posts
+  # toc = true
+
+  # Show full page content in RSS feed items
+  #(default is Description or Summary metadata in the front matter)
+  # rssFullText = true
+
+[languages]
+  [languages.en]
+  	description = "Bran is an art school dropout turn computer programmer whom fell in love with operating systems such as Linux while finishing his final year of studying mathematics as an undergraduate student."
+    title = "magic-code-protege - Bran"
+    subtitle = "Linux, Kubernetes, Infrstructure, Development"
+    keywords = "Linux, Kubernetes, Artist, Software Development"
+    copyright = "2022 magic code protege"
+#--------------------------------------------------------
+
+    [languages.en.params.logo]
+      logoText = "[bran@magic-code-protege] $"
+	  logoUser = "bran"
+	  logoHost = "mcp"
+#      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "src"
+        name = "src"
+        url = "https://github.com/magiccodeprotege"
+      [[languages.en.menu.main]]
+        identifier = "readme"
+        name = "readme"
+        url = "/readme"
+	  [[languages.en.menu.main]]
+ 		identifier = "blog"
+		name = "blog"
+		url = "/blog"
+	 
