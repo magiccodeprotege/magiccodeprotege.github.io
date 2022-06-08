@@ -27,16 +27,16 @@ paginate = 5
 
 [languages]
   [languages.en]
-  	description = "Bran is an art school dropout turn computer programmer whom fell in love with operating systems such as Linux while finishing his final year of studying mathematics as an undergraduate student."
-    title = "magic-code-protege - Bran"
+  	description = "scotbran is an art school dropout turned computer programmer. He fell in love with operating systems, coding, and applied math while completing his final year of pursuing mathematics as an undergraduate student"
+    title = "magic-code-protege - scotbran"
     subtitle = "Linux, Kubernetes, Infrstructure, Development"
     keywords = "Linux, Kubernetes, Artist, Software Development"
-    copyright = "2022 magic code protege"
+    copyright = "2022-magic-code-protege"
 #--------------------------------------------------------
 
     [languages.en.params.logo]
-      logoText = "[bran@magic-code-protege] $"
-	  logoUser = "bran"
+      logoText = "[scotbran@magic-code-protege] $"
+	  logoUser = "scotbran"
 	  logoHost = "mcp"
 #      logoHomeLink = "/"
     # or
