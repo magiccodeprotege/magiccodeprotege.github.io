@@ -1,9 +1,11 @@
-+++
-title = "Partition the Disks"
+```
+title = "Partitioning a Disk for a Filesystem with fdisk"
 date = "2022-06-07"
 author = "scotbran"
-+++
+```
 
+# Partition a disk with fdisk
+man pages provide 
 ```bash
 # man fdisk 
 
@@ -47,7 +49,14 @@ I/O size (minimum/optimal): 4096 bytes / 4096 bytes
 
 ```
 
-## disk, partitions, and filesystems. 
+## Disk, Partitions, and Filesystems. 
+### Disk
+todo
+
+### Partition
+- [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning)
+
+### Filesystem
 A filesystem is the methods and data structures that an operating system uses to keep track of files on a disk or partition. that is, the way the files are organized on the disk. 
 
 The difference between a disk and partition and the filesystem it contains are important. A few programs operate directly on the raw sections of a disk or partition; if there is an existing file system there it will be destroyed or seriously corrupted. Most programs operate on a filesystem, and therefore won't work on a partition that doesn't contain one.
@@ -59,8 +68,5 @@ The central concepts of UNIX filesystems types are as follows:
 - directory block:
 - indirectiion block: 
 
-### types of filesystems (WIP)
-- ext4: fourth extended filesystem is a journaling filesystem for Linux, developed as the successor to ext3. https://en.wikipedia.org/wiki/Ext4
-## sections
-### subsections
-#### sub-subsections
+#### types of filesystems
+- [ext4](https://en.wikipedia.org/wiki/Ext4): fourth extended filesystem is a journaling filesystem for Linux, developed as the successor to ext3. 
