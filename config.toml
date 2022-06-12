@@ -9,14 +9,14 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 [Author] # Used in authorbox
   name = "John Doe"
   bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
-  avatar = "img/avatar.png"
+  #avatar = "img/avatar.png"
 
 [Params]
   description = "John Doe's Personal blog about everything" # Site description. Used in meta description
   copyright = "John Doe" # Footer copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
   schema = true # Enable Schema
-  twitter_cards = true # Enable Twitter Cards if true
+  #twitter_cards = true # Enable Twitter Cards if true
   readmore = false # Show "Read more" button in list if true
   authorbox = true # Show authorbox at bottom of pages if true
   toc = true # Enable Table of Contents
@@ -24,16 +24,16 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
   mainSections = ["post", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
   dateformat = "2006-01-02" # Change the format of dates
-  mathjax = true # Enable MathJax
-  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
-  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
-  googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
-  customCSS = ["css/custom.css"] # Include custom CSS files
-  customJS = ["js/custom.js"] # Include custom JS files
+  #mathjax = true # Enable MathJax
+  #mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+  #mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  #googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
+  #customCSS = ["css/custom.css"] # Include custom CSS files
+  #customJS = ["js/custom.js"] # Include custom JS files
 
   # DEPRECATED PARAMS
-  subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
-  highlightColor = "" # Deprecated in favor of .Site.Params.style.vars.highlightColor
+  #subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
+  #highlightColor = "" # Deprecated in favor of .Site.Params.style.vars.highlightColor
 
 [Params.style.vars]
   highlightColor = "#e22d30" # Override highlight color
@@ -68,14 +68,14 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Params.widgets.social]
   # Enable parts of social widget
-  facebook = "username"
-  twitter = "username"
-  instagram = "username"
-  linkedin = "username"
-  telegram = "username"
+  #facebook = "username"
+  #twitter = "username"
+  #instagram = "username"
+  #linkedin = "username"
+  #telegram = "username"
   github = "username"
-  gitlab = "username"
-  bitbucket = "username"
+  #gitlab = "username"
+  #bitbucket = "username"
   email = "example@example.com"
 
 # Custom social links
