@@ -1,7 +1,7 @@
 ```
 title = "Partitioning a Disk for a Filesystem with fdisk"
 date = "2022-06-07"
-author = "scotbran"
+author = "daemonctl@mcp"
 ```
 
 # Partition a disk with fdisk
