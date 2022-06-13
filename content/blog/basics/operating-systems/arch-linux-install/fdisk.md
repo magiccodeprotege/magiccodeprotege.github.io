@@ -1,11 +1,11 @@
 ```
 title = "Partitioning a Disk for a Filesystem with fdisk"
 date = "2022-06-07"
-author = "scotbran"
+author = "deamonctl@mcp"
 ```
 
 # Partition a disk with fdisk
-man pages provide 
+man pages (short for manual page) are a form of software documentation usually found on a Unix or Unix-like operating systems. 
 ```bash
 # man fdisk 
 
@@ -22,6 +22,7 @@ SYNOPSIS
 DESCRIPTION
        fdisk  is  a  dialog-driven program for creation and manipulation of partition tables.  It understands
        GPT, MBR, Sun, SGI and BSD partition tables.
+       .
        .
 ```
 
@@ -49,6 +50,7 @@ I/O size (minimum/optimal): 4096 bytes / 4096 bytes
 
 ```
 
+
 ## Disk, Partitions, and Filesystems. 
 ### Disk
 todo
@@ -70,3 +72,5 @@ The central concepts of UNIX filesystems types are as follows:
 
 #### types of filesystems
 - [ext4](https://en.wikipedia.org/wiki/Ext4): fourth extended filesystem is a journaling filesystem for Linux, developed as the successor to ext3. 
+
+#### Resizing the Parition 
